@@ -26,11 +26,9 @@ def test_add_to_cart():
 
     # Validates the item in cart
     assert "Sauce Labs Backpack" in driver.page_source
-
-    driver.quit()
-
 import time
 
 # Adds a delay to keep the browser open for 30 seconds
 time.sleep(30)
+    driver.quit()
 
