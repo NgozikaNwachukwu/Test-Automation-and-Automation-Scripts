@@ -29,13 +29,12 @@ def test_login(username, password, expected_result):
         assert "Products" in driver.page_source
     else:
         assert "Epic sadface" in driver.page_source
-
-    driver.quit()
-
 import time
 
 # Your existing test steps here
 
 # Add a delay to keep the browser open for 30 seconds
 time.sleep(30)
+
+    driver.quit()
 
