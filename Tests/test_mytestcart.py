@@ -1,4 +1,4 @@
-# test_mytestlogin.py
+# test_mytestcart.py
 #
 # This script contains automated test cases for logging into a web application.
 # It uses Selenium WebDriver to interact with the web page and pytest for test execution.
