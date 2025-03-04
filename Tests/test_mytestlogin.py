@@ -1,4 +1,4 @@
-# test_mytestcart.py
+# test_mytestlogin.py
 #
 # This script contains automated test cases for interacting with the shopping cart in a web application.
 # Using Selenium WebDriver, the script tests actions like adding items to the cart, updating quantities,
